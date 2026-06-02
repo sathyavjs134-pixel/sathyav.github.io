@@ -10,13 +10,12 @@
   --text-muted: #64748b;
   --border-color: rgba(15, 23, 42, 0.08);
 }
-
 .profile-photo {
     width: 180px;
     height: auto;
     display: block;
     margin: 0 auto 25px auto;
-    border-radius: 8px;
+    border-radius: 0;
 }
 /* Global Reset */
 * {
