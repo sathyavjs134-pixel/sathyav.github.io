@@ -11,11 +11,11 @@
   --border-color: rgba(15, 23, 42, 0.08);
 }
 .profile-photo {
-    width: 180px;
-    height: auto;
-    display: block;
-    margin: 0 auto 25px auto;
-    border-radius: 0;
+    width: 180px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto 25px auto !important;
+    border-radius: 0 !important;
 }
 /* Global Reset */
 * {
