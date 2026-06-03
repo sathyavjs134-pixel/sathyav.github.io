@@ -255,35 +255,43 @@
         </div>
         
 <!-- Contact Form -->
-<div class="contact-form-container">
-
-<h3 style="color:red;font-size:20px;">YOUR NAME</h3>
-
 <form class="contact-form"
       action="https://formsubmit.co/sathyavjs134@gmail.com"
       method="POST">
 
-<input
-  type="text"
-  class="form-control"
-  placeholder="Name">
+  <div class="form-group-row">
 
-<button type="submit" class="btn btn-primary">
-  Send Message
-</button>
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text"
+             id="name"
+             name="name"
+             class="form-control"
+             placeholder="Name"
+             required>
+    </div>
 
-</form>
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email"
+             id="email"
+             name="email"
+             class="form-control"
+             placeholder="john@example.com"
+             required>
+    </div>
 
-</div>
+  </div>
 
-  <!-- Name -->
-  <input type="text" name="name" required>
-
-  <!-- Email -->
-  <input type="email" name="email" required>
-
-  <!-- Message -->
-  <textarea name="message" required></textarea>
+  <div class="form-group" style="margin-bottom:1.5rem;">
+    <label for="message">Your Message</label>
+    <textarea id="message"
+              name="message"
+              class="form-control"
+              style="min-height:120px;"
+              placeholder="Message details..."
+              required></textarea>
+  </div>
 
   <input type="hidden" name="_subject" value="New Portfolio Contact Message">
   <input type="hidden" name="_captcha" value="false">
